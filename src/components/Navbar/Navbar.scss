@@ -1,0 +1,24 @@
+@import "../../index.scss";
+.navbar {
+    background-color: black;
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: none;
+    text-align: center;
+}
+
+.navlink {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: capitalize;
+    &:hover {
+        color: yellow;
+    }
+}
